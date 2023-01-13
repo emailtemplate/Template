@@ -1,0 +1,787 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+:root {
+  overflow-x: hidden;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+
+header,
+main {
+  margin: 0 20px;
+}
+
+header img {
+  width: 131px;
+  height: 65px;
+  left: 24px;
+  top: 32px;
+  margin-left: -2rem;
+  object-fit: contain;
+}
+
+.yearReview {
+  background: #f3f3f3;
+  border-radius: 2rem;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  height: 118px;
+}
+
+#yearReviewImg {
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+}
+
+#reviewPie {
+  width: 159.37px;
+  height: auto;
+}
+
+main {
+  margin-top: 2rem;
+}
+
+.intro h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19.36px;
+}
+
+.intro p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: justify;
+}
+
+.intro span {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.activityIntro p {
+  margin-top: 2rem;
+  margin-left: 0.3rem;
+  position: absolute;
+  width: 327px;
+  height: 36px;
+  left: 24px;
+  top: 399px;
+
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+  text-align: justify;
+}
+
+.activitySection {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.transactionWorth {
+  margin-top: 5rem;
+  height: 200px;
+  padding-bottom: 3rem;
+  background: linear-gradient(318.64deg, #ac0606 72.73%, rgba(222, 52, 52, 0.4) 96.54%);
+  border-radius: 8px;
+}
+
+.transactionText {
+  margin: 0rem 1rem;
+
+  color: white;
+  position: absolute;
+  left: 40px;
+  font-family: "Inter", sans-serif;
+  text-align: justify;
+}
+
+p.numberOfTransactions {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 0rem;
+}
+
+p.transactionsAmount {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.creditDebitTransactions {
+  background: black;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  margin-top: -1.5rem;
+}
+
+.creditTransactions p {
+  color: #1fad08;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 36px;
+  text-align: justify;
+}
+
+p.creditAmount {
+  color: white;
+  font-size: 24px;
+}
+
+.debitTransactions p {
+  color: #d84e4e;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: justify;
+}
+
+p.debitAmount {
+  color: white;
+  font-size: 24px;
+}
+
+.channelSection {
+  background: #f9f9f9;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+.channelsIntro {
+  font-size: 12px;
+  text-align: justify;
+  padding: 2rem 1rem;
+  font-weight: 500;
+  margin-bottom: -0.5rem;
+  line-height: 14.52px;
+}
+
+.channelsBreakdown {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.usedChannels {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem;
+}
+
+.usedChannels span {
+  margin-top: -0.25rem;
+  border: 1px solid #d71920;
+  display: inline-block;
+  padding: 0 1rem;
+  border-radius: 8px;
+  color: #d71920;
+}
+
+.atmTransaction,
+.oneBankTransaction,
+.ussdTransaction,
+.onePayTransaction,
+.webTransaction,
+.posTransaction {
+  font-weight: 700;
+}
+/* 
+.atm, .oneBank, .ussd, .onePay, .web, .pos {
+    font-style: italic;
+    display: flex;
+    justify-content: space-between;
+} */
+
+.atm,
+.oneBank,
+.ussd,
+.onePay,
+.web,
+.pos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.atm p,
+.oneBank p,
+.ussd p,
+.onePay p,
+.web p,
+.pos p {
+  display: inline-block;
+  font-style: italic;
+}
+
+.atm img {
+  width: 20px;
+  height: 15.21px;
+}
+
+.web img {
+  width: 11px;
+  height: 12px;
+}
+
+.pos img {
+  width: 20px;
+  height: 15px;
+}
+
+.onePay img {
+  width: 30px;
+  height: 9.38px;
+}
+
+.oneBank img {
+  width: 30px;
+  height: 6px;
+}
+
+.ussd img {
+  width: 14px;
+  height: 12px;
+}
+
+.mostUsedChannel {
+  text-align: center;
+  height: max-content;
+  background: #333333;
+  border-radius: 10px;
+  padding: 16px;
+  margin: 40px;
+}
+
+.mostUsedChannel h2 {
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  font-family: "Lato", sans-serif;
+}
+
+.mostUsedChannel div {
+  background: white;
+  border-radius: 10px;
+  height: 200px;
+}
+
+.mostUsedChannel p {
+  font-size: 32px;
+  font-weight: 700;
+  color: #ac0606;
+  padding: 25% 0;
+}
+
+.mostUsedChannel span {
+  color: #939598;
+}
+
+.activityDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-top: 3rem;
+}
+
+.mostActiveMonth {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fef7f7;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.calendar {
+  background: url(/images/activemonthimg.png);
+  background-repeat: no-repeat;
+  width: auto;
+  height: 88px;
+  background-size: contain;
+  padding: 1.5rem;
+  margin: 1rem;
+}
+
+.calendar p {
+  margin: 50% 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.mostActiveMonthtext h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #e86161;
+}
+
+.mostActiveMonthtext p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #333333;
+}
+
+.incurredAtmCharges {
+  height: 193px;
+  left: 24px;
+  top: 1596px;
+  background: #000000;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.incurredAtmCharges h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.incurredAtmCharges span {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.incurredAtmCharges p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.incurredAtmCharges a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 150%;
+  color: #efbd10;
+}
+
+.incurredAtmCharges div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.incurredAtmCharges img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+
+.beneficiaries {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-top: 3rem;
+  background: #eff7fc;
+  border-radius: 8px;
+  height: auto;
+  padding: 1rem;
+}
+
+.beneficiaries h5 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+  margin-bottom: 0rem;
+}
+
+.beneficiaries p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+}
+
+.nairaMatters {
+  margin-top: 2rem;
+}
+
+.nairaMatters h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  color: #333333;
+}
+
+.nairaMatters p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #333333;
+  text-align: justify;
+  padding: 0 0.5rem;
+}
+
+.investment {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.investment img {
+  width: 101px;
+  height: 100px;
+  object-fit: cover;
+  padding: 0 0.5rem;
+}
+
+.i-invest h5 {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #333333;
+  margin: 0.5rem;
+}
+
+.i-invest span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #551863;
+}
+
+.i-invest p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #333333;
+  text-align: right;
+  margin: 0.5rem;
+}
+
+.i-invest a {
+  color: #551863;
+}
+
+#investmentPortfolio {
+  margin-top: 1rem;
+}
+
+.visaCreditCard {
+  margin-top: 2rem;
+  height: auto;
+  background: #faf6ea;
+  border-radius: 8px;
+  padding: 0.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.visaCreditCard h5 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #bf8f11;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+.visaCreditCard span {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.visaCreditCard p {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 150%;
+  color: #333333;
+  padding: 0 1rem;
+  margin-top: 0;
+}
+
+.visaCreditCard a {
+  color: #bf8f11;
+}
+
+.visaCardImg {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.visaCardImg img {
+  width: 110px;
+  height: 95.67px;
+  object-fit: cover;
+}
+
+.smeBanking {
+  background: #f6f6f6;
+  border-radius: 8px;
+  margin-top: 2rem;
+  height: auto;
+  padding: 0.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.smeBanking h5 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+  padding: 0 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.smeBanking span {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+#personalizedApproach {
+  margin-top: -1rem;
+}
+
+.smeBanking p {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 150%;
+  padding: 0 1rem;
+  margin-top: 0;
+}
+
+.smeBanking a {
+  color: #db3539;
+}
+
+.smeBankingImg img {
+  width: 67px;
+  height: 67px;
+  object-fit: cover;
+  margin-top: -1rem;
+}
+
+.smeBankingImg {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+.doubble {
+  padding: 2rem;
+  background: #f5fbff;
+  border-radius: 8px;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.doubble h5 {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  color: #333333;
+  margin: 0;
+}
+
+.doubble span {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #035387;
+}
+
+.doubbleImg p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+}
+
+.doubbleImg a {
+  color: #0468a9;
+  padding-right: 0.25rem;
+}
+
+.doubbleImg {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.doubbleImg img {
+  width: 81px;
+  height: 18px;
+  margin-top: 2rem;
+}
+
+.productChannels {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+  padding: 0 2rem;
+}
+
+.spectaImg {
+  width: 75px;
+  height: 48px;
+  object-fit: cover;
+}
+
+.oneImg {
+  width: 76px;
+  height: 48px;
+  object-fit: cover;
+}
+
+.altMallImg {
+  width: 76px;
+  height: 48px;
+  object-fit: cover;
+}
+
+.treImg {
+  width: 75px;
+  height: 16px;
+}
+
+.sterlingImg {
+  width: 75px;
+  height: 23px;
+}
+
+.cafeOneImg {
+  width: 65px;
+  height: 43px;
+}
+
+.footerdiv {
+  margin: 2rem 0;
+  padding: 2rem;
+  background: #eaeaea;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.footerdiv h5 {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #333333;
+}
+
+footer {
+  background: #242424;
+  padding-bottom: 2rem;
+  margin: -1rem 0;
+}
+
+.customerCenter {
+  display: flex;
+  margin: 0 2rem;
+}
+
+.customerCenterdiv {
+  padding: 0 0.5rem;
+}
+
+.customerCenter h6 {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0 0;
+}
+
+.customerCenter p {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 0.5rem;
+}
+
+.customerCenterContact {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2rem;
+}
+
+.contactNumber {
+  margin-top: 0.5rem;
+}
+
+.customerCenterContact p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  margin: 0;
+}
+
+.customerCenterContact a {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #9b0005;
+}
+
+.socialLinks {
+  display: flex;
+  justify-content: center;
+}
+
+.linkedlnImg {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.youtubeImg {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.twitterImg {
+  width: 24px;
+  height: 24px;
+}
+
+.facebookImg {
+  width: 24px;
+  height: 24px;
+}
+
+.instagramImg {
+  width: 21px;
+  height: 24px;
+}
