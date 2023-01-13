@@ -129,28 +129,33 @@ p.transactionsAmount {
 .creditTransactions p {
   color: #1fad08;
   font-family: "Inter", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 36px;
   text-align: justify;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 p.creditAmount {
   color: white;
   font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
 }
 
 .debitTransactions p {
   color: #d84e4e;
   font-family: "Inter", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
   text-align: justify;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 p.debitAmount {
   color: white;
   font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
 }
 
 .channelSection {
